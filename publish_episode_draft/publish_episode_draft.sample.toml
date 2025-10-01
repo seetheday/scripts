@@ -1,0 +1,24 @@
+[acast]
+feed_url = "https://feeds.acast.com/public/shows/maple-history-a-canadian-history-podcast"
+polling_interval_minutes = 15
+
+[paths]
+artwork_dir = "~/Reaper/MacBook/images/Episode Images"
+transcript_dir = "~/Reaper/MacBook/transcripts"
+state_file = "~/.maple_history/state.json"
+log_file = "~/.maple_history/publisher.log"
+lock_file = "/tmp/maple_history_publish.lock"
+
+[sanity]
+project_id = "your_project_id"
+dataset = "production"
+api_version = "2023-10-01"
+token_env_var = "SANITY_API_TOKEN"
+
+[defaults]
+tags = ["Canadian History"]
+historical_period = "modern"
+season = 1
+
+[runtime]
+timeout_seconds = 20

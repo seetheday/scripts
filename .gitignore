@@ -1,1 +1,4 @@
 hetzner.server.ip
+myenv
+__pycache__
+publish_episode_draft/publish_episode_draft.toml
